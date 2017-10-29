@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Century Gothic; /* Имя шрифта */
+    src: url(../fonts/Century Gothic.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+    max-width: 2551px; /* Максимальная ширина страницы в пикселах */
+    margin: auto;
+    font-family: Century Gothic;
+}
+
+h1{
+	font-size: 62pt;
+	font-weight:normal;
+	color: #424243;
+	margin-bottom:0px;
+	margin-top: 214px;
+}
+
+h2{
+	font-size: 42pt;
+	font-weight:normal;
+	color: #424243;
+	margin-top: 0px; 
+}
+
+img{
+	width: 779px;
+	margin: 72px 109px 0px 0px; 
+}
+
+.contact_information{
+	color: #9c9da0;
+	margin-bottom: 120px;
+	font-size: 25pt;   
+}
+
+.column1{
+	display: inline-block;
+	width: 900px;
+	vertical-align:top;
+}
+
+.column2{
+	display: inline-block;
+	width: 1646px;
+	vertical-align:top;
+}
+
+.block_title{
+	text-align: center;
+	background-color: #e8c734;
+	display: inline-block;
+	font-size: 30pt;
+	font-weight: bold;
+	margin-top: 65px;
+	margin-bottom: 20px;
+	padding: 8px 28px 12px 28px;
+}
+
+.text_style{
+	font-size: 27pt;
+	color: #424243;
+	margin-bottom: 10px;
+	line-height: 45pt;
+	text-align: justify;
+	box-sizing:border-box;
+	text-align:top;
+}
+
+.years_of_education{
+	vertical-align: top;
+	font-weight: bold;
+	color: #9c9da0;
+}
+
+.years_of_work{
+	color: #9c9da0;
+}
+
+.description{
+	color: #9c9da0;
+	font-size: 25pt; 
+	margin-bottom: 0px;
+}
+
+.end_border{
+	background-color: #e8c734;
+	height: 50px;
+	border-width:0px;
+	width: 2750px;
+	margin-left: -100px;
+}
+
+td{
+	padding-top: 60px;
+}
+
+progress
+{
+	width: 619px; 
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-value{
+    background-color: grey;
+}
+
+progress::-webkit-progress-bar{
+    background-color: white;
+
+}
+
+progress::-webkit-progress-inner-element{
+	border: 1px solid grey;
+}
+
+div{
+	text-align: left;
+}
+
