@@ -6,110 +6,113 @@
 		<link rel="stylesheet" href="../styles/style.css">
 	</head>
 	<body>
-		<div>
-			<h1>NATALIA PONOMAREVA</h1>
-			<h2>Tester</h2>			
-		</div>
-		<div>
-			<p class="contact_information">Sibniishoz | Russia | Omsk <br>
-			89083106307 | natalip5876@gmail.com</p>
-		</div>
-		<hr>
-		<div class = "column1">
-			<img src="../images/enot.jpg" alt="Енотик" title="нету фото, есть енотик"><br>
-			<div> 
-				<p class="block_title">Skills</p>
-
-				<p class="text_style">Communication</p>		
-				<progress value="6" max="10"></progress>
-
-				<p class="text_style">Teamwork</p>
-				<progress value="8" max="10"></progress>
-
-				<p class="text_style">Organization</p>
-				<progress value="8" max="10"></progress>
-
-				<p class="text_style">Attentive</p>
-				<progress value="7" max="10"></progress>
+		<div class="page-layout">
+			<div>
+				<h1 class="personal-information__name">NATALIA PONOMAREVA</h1>
+				<h2 class="personal-information__profession">Tester</h2>			
 			</div>
+			<div>
+				<p class="personal-information__contact-information">Sibniishoz | Russia | Omsk <br>
+				<a class="personal-information__contact-information" href="tel:+79083106307">tel:+79083106307</a> | <a class="personal-information__contact-information" href="mailto:natalip5876@gmail.com">natalip5876@gmail.com</a></p>
+			</div>
+			<hr class="line">
+			<div class = "column1">
+				<img src="../images/enot.jpg" alt="Енотик" title="нету фото, есть енотик" class="foto"><br>
+				<div> 
+					<p class="block-title">Skills</p>
+
+					<p class="main-text-style">Communication</p>	
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress skills__progress-bar_Communication"></div>
+					</div>
+					<p class="main-text-style">Teamwork</p>
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress skills__progress-bar_Teamwork"></div>
+					</div>
+
+					<p class="main-text-style">Organization</p>
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress skills__progress-bar_Organization"></div>
+					</div>
+
+					<p class="main-text-style">Attentive</p>
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress skills__progress-bar_Attentive"></div>
+					</div>
+				</div>
 			
-			<div>
-				<p class="block_title">Software</p>
-				<p class="text_style">Photoshop</p>		
-				<progress value="6" max="10"></progress>
-				<p class="text_style">Coding/CSS</p>
-				<progress value="5" max="10"></progress>
-			</div>
-		</div>
-		<div  class="column2">
-			<div>
 				<div>
-					<p class="block_title">About me</p>
-					<p class="text_style"><b>I’M Natalia Ponomareva</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<p class="block-title">Software</p>
+					<p class="main-text-style">Photoshop</p>
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress software__progress-bar_Photoshop"></div>
+					</div>
+					<p class="main-text-style">Coding/CSS</p>
+					<div class="progress-bar__border">
+						<div class="progress-bar__progress software__progress-bar_CoddingCss"></div>
+					</div>
 				</div>
+			</div>
+			<div  class="column2">
 				<div>
-					<p class="block_title">Education</p>
 					<div>
-						<table class="text_style">
-							<tr>
-								<td width= "17%" class="years_of_education">
-									2012 / 2016 
-								</td>
-								<td>
-									Faculty of Information Technologies and Computer Systems, Omsk State Technical University<br><b>Bachelor of science</b>
-								</td>
-							</tr>
-							<tr>
-								<td class="years_of_education">
+						<p class="block-title">About me</p>
+						<p class="main-text-style"><b>I’M Natalia Ponomareva</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+					<div>
+							<p class="block-title">Education</p>
+						<div>
+							<div class="education">
+								<div class="education__years">
+									2012 / 2016
+								</div>
+								<div class="education__university">
+									Faculty of Information Technologies and Computer Systems, Omsk State Technical University<p class="education__academic-degree">Bachelor of science</p>
+								</div>
+							</div>
+							<div  class="education">
+								<div class="education__years">
 									2016 / 2018
-								</td>
-								<td>
-									Faculty of Elite Education and Magistracy, Omsk State Technical University<br><b>Student</b>
-								</td>
-							</tr>
-						</table>
-					</div>
-				</div>
-				<div>
-					<p class="block_title">Experience</p>
-					<div class="text_style">
-						<p class="years_of_work">
-							12.2016 - Present
-						</p>
-						<p>
-							<strong>Engineer</strong><br>
-							Avtomatica-Servis, LTD
-						</p>	
-						<p class="description">
-							<b>Description.</b> If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited.
-						</p>
-					</div>
-				</div>
-				<div>
-					<p class="block_title">Reference</p>
-					<table class="text_style">
-						<tr>
-							<td width= "70%">
-								<div> <b>Michael Johns</b></div>
-								<div>Manager /Compony</div>
-								<div class="contact_information">
-								T. +1 0123 456 789<br>
-								E. Michael Johnsr@gmail.com
 								</div>
-							</td>
-							<td>
-								<div> <b>Michael Johns</b></div>
-								<div>Manager /Compony</div>
-								<div class="contact_information">
-								T. +1 0123 456 789<br>
-								E. Michael Johnsr@gmail.com
+								<div class="education__university main-text-style">
+									Faculty of Elite Education and Magistracy, Omsk State Technical University<p class="education__academic-degree">Student</p>
 								</div>
-							</td>
-						</tr>
-					</table>
-				</div>				
+							</div>
+						</div>
+					</div>
+					<div>
+						<p class="block-title">Experience</p>
+						<div>
+							<p class="experience__years">
+								12.2016 - Present
+							</p>
+							<p class="experience__profession">Engineer</p>
+							<p class="experience__place-of-work main-text-style">Avtomatica-Servis, LTD</p>	
+							<p class="experience__description">
+								<span class="experience__description-word">Description.</span> If successful in the tests, those who are considered by a hiring service to be suitable to their requirements will be invited.
+							</p>
+						</div>
+					</div>
+					<div>
+						<p class="block-title">Reference</p>
+					<div>
+						<div class="reference">
+							<p class="reference__name">Michael Johns</p>
+							<p class="main-text-style reference__profession">Manager /Compony</p>
+							<a href="tel:+10123456789" class="reference__contact-information"> T. +1 0123 456 789</a><br>
+							<a href="mailto:Michael Johnsr@gmail.com" class="reference__contact-information">E. Michael Johnsr@gmail.com</a>
+						</div>
+						<div class="reference">
+							<p class="reference__name">Michael Johns</p>
+							<p class="main-text-style reference__profession">Manager /Compony</p>
+							<a href="tel:+10123456789" class="reference__contact-information"> T. +1 0123 456 789</a><br>
+							<a href="mailto:Michael Johnsr@gmail.com" class="reference__contact-information">E. Michael Johnsr@gmail.com</a>
+						</div>
+					</div>		
+				</div>
 			</div>
 		</div>
-		<hr class="end_border">
+	</div>
+	<hr class="end_border">
 	</body>
 </html>
