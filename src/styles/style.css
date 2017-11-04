@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Century Gothic; /* Имя шрифта */
     src: url(../fonts/Century Gothic.ttf); /* Путь к файлу со шрифтом */
@@ -9,115 +10,196 @@ body {
     font-family: Century Gothic;
 }
 
-h1{
-	font-size: 62pt;
+.line{
+	width: 2245px;
+	height: 1px;
+}
+
+.page-layout{
+	max-width: 2245px; /* Максимальная ширина страницы в пикселах (без отступов) */
+    margin-left: 146px;
+    margin-right: 160px;
+}
+
+.personal-information__name{
+	font-size: 72px;
 	font-weight:normal;
 	color: #424243;
 	margin-bottom:0px;
 	margin-top: 214px;
 }
 
-h2{
-	font-size: 42pt;
+.personal-information__profession{
+	font-size: 56px;
 	font-weight:normal;
 	color: #424243;
 	margin-top: 0px; 
 }
 
-img{
+.foto{
 	width: 779px;
-	margin: 72px 109px 0px 0px; 
+	margin: 63px 109px 0px 0px; 
 }
 
-.contact_information{
+.personal-information__contact-information{
 	color: #9c9da0;
 	margin-bottom: 120px;
-	font-size: 25pt;   
+	font-size: 43px;   
 }
 
 .column1{
 	display: inline-block;
-	width: 900px;
+	width: 888px;
 	vertical-align:top;
 }
 
 .column2{
 	display: inline-block;
-	width: 1646px;
+	width: 1352px;
 	vertical-align:top;
 }
 
-.block_title{
+.block-title{
 	text-align: center;
 	background-color: #e8c734;
 	display: inline-block;
-	font-size: 30pt;
-	font-weight: bold;
+	font-size: 43px;
+	font-weight: 600;
 	margin-top: 65px;
 	margin-bottom: 20px;
 	padding: 8px 28px 12px 28px;
 }
 
-.text_style{
-	font-size: 27pt;
+.main-text-style{
+	font-size: 43px;
 	color: #424243;
 	margin-bottom: 10px;
-	line-height: 45pt;
+	line-height: 55px;
 	text-align: justify;
 	box-sizing:border-box;
 	text-align:top;
 }
 
-.years_of_education{
+.progress-bar__border{
+	border: 1px solid #bbbcbe;
+	width: 619px;
+	height: 28px;
+
+}
+
+.progress-bar__progress{
+	background-color: #bbbcbe;
+	height: 28px;
+}
+
+.skills__progress-bar_Communication{
+	width: 60%;
+}
+
+.skills__progress-bar_Teamwork{
+	width: 80%;
+}
+
+.skills__progress-bar_Organization{
+	width: 80%;
+}
+
+.skills__progress-bar_Attentive{
+	width: 70%;
+}
+
+.software__progress-bar_CoddingCss{
+	width: 60%;
+}
+
+.software__progress-bar_Photoshop{
+	width: 50%;
+}
+
+
+.education__years{
+	display: inline-block;
 	vertical-align: top;
-	font-weight: bold;
-	color: #9c9da0;
+	font-size: 43px;
+	color: #424243;
+	width: 359px;
+}
+.education__academic-degree{
+	margin: 0;
+	vertical-align: top;
+	font-size: 43px;
+	font-weight: 600;
+	color: #424243;
 }
 
-.years_of_work{
-	color: #9c9da0;
+.education{
+	margin-top: 90px;
 }
 
-.description{
+.education__university{
+	display: inline-block;
+	font-size: 43px;
+	color: #424243;
+	margin-bottom: 10px;
+	line-height: 45px;
+	width: 958px;
+}
+
+.experience__years{
 	color: #9c9da0;
-	font-size: 25pt; 
+	font-size: 43px;
+	margin-bottom: 61px;
+}
+.experience__profession{
+	margin: 0;
+	vertical-align: top;
+	font-size: 43px;
+	font-weight: 600;
+	color: #424243;
+}
+.experience__place-of-work{
+	margin: 0 0 0 0; 
+}
+.experience__description{
+	color: #9c9da0;
+	font-size: 35px; 
 	margin-bottom: 0px;
+	line-height: 55px;
+}
+
+.experience__description-word{
+	color: #9c9da0;
+	font-size: 43px; 
+	font-weight: 600;
+}
+
+.reference{
+	width: 49%;
+	display: inline-block;
+}
+.reference__name{
+	font-size: 43px;
+	color: #424243;
+	margin-bottom: 10px;
+	line-height: 45px;
+	margin: 0;
+}
+
+.reference__profession{
+	margin: 0;
+}
+
+.reference__contact-information{
+	color: #9c9da0;
+	margin-bottom: 120px;
+	font-size: 35px;
 }
 
 .end_border{
 	background-color: #e8c734;
 	height: 50px;
 	border-width:0px;
-	width: 2750px;
-	margin-left: -100px;
+	width: 2551px;
 }
 
-td{
-	padding-top: 60px;
-}
-
-progress
-{
-	width: 619px; 
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-}
-
-progress::-webkit-progress-value{
-    background-color: grey;
-}
-
-progress::-webkit-progress-bar{
-    background-color: white;
-
-}
-
-progress::-webkit-progress-inner-element{
-	border: 1px solid grey;
-}
-
-div{
-	text-align: left;
-}
 
